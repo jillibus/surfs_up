@@ -36,7 +36,24 @@ The results showed the following:
  ```
 This set us in motion to use the station USC00519281 for our future queries.
 
-2) The next step in our process was to determine the statistics for the temperature and precipation:  What we are looking for are the:
+2) The next step was to be able to show W. Avy how the temperatures would show for the 2 months based on a histogram.  I divided the temperatures into 15 bins to see the frequency of the temperatures during the month. The plotting of these used Matplotlib and setting the bins=15.
+```
+june_df.plot.hist(bins=15)
+plt.tight_layout()
+plt.title('June Temperatures')
+plt.xlim([60,90])
+plt.ylim([0,400])
+
+dec_df.plot.hist(bins=15)
+plt.tight_layout()
+plt.title('Dec Temperatures')
+plt.xlim([50,90])
+plt.ylim([0,400])
+```
+
+![JuneTemp](images/June-Temperatures.png)       ![DecTemp](images/Dec-Temperatures.png)
+
+3) The third step in our process was to determine the statistics for the temperature and precipitation.  In these queries I created the dataframes for each month to have both the temperature and the precipitation in the dataframe.  What we are looking for are the:
   * count
   * mean
   * standard deviation
@@ -62,14 +79,20 @@ dec_temp_prcp_df.describe()
 
 ---
 
-![JuneTemp](images/June-Temperatures.png)       ![DecTemp](images/Dec-Temperatures.png)
+4) My final step in showing W. Avy if Oahu was a good location to open the Surf n' Shake shop was to plot both the temperature and the precipitation together on the same chart.  To do this I went with a different chart, and chose a scatter plot to see how these 2 different sets of data would present.  I used the same dataframes from step 3 that held both the temperature and precipitation values and set up the plot as a scatter plot.
+```
+june_temp_prcp_df.plot.scatter('temp','prcp')
+plt.tight_layout()
+plt.title('June Temperature by Precipitation')
+plt.xlim([60,90])
+plt.ylim([0,8])
 
-## Summary
-
-
-
-
----
-
+dec_temp_prcp_df.plot.scatter('temp','prcp')
+plt.tight_layout()
+plt.title('December Temperature by Precipitation')
+plt.xlim([50,90])
+plt.ylim([0,8])
+```
 ![JuneScatter](images/June-Temp-Prec.png)       ![DecScatter](images/Dec-Temp-Prec.png)
 
+## Summary
