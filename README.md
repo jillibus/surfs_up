@@ -54,14 +54,14 @@ plt.ylim([0,400])
 ![JuneTemp](images/June-Temperatures.png)       ![DecTemp](images/Dec-Temperatures.png)
 
 3) The third step in our process was to determine the statistics for the temperature and precipitation.  In these queries I created the dataframes for each month to have both the temperature and the precipitation in the dataframe.  What we are looking for are the:
-  * count
-  * mean
-  * standard deviation
-  * mininum value
-  * max value
-  * 25% quartile
-  * 50% quartile
-  * 75% quartile 
+  * count - _total number of items in the dataset_
+  * mean - _the average number of items in the dataset_
+  * standard deviation - _a measure of how spread out numbers in a dataset are_
+  * mininum value - _the smallest number in the dataset_
+  * max value - _the largest number in a dataset_
+  * 25% quartile - _in the bottom 25% of the dataset_
+  * 50% quartile - _in the bottom 50% of the dataset_
+  * 75% quartile - _in the bottom 75% of the dataset_
   
 We chose to look at June and December, as those months are 6 months apart, and are some of the hottest as well as coldest times of the year.  Our queries against the hawaii.sqlite database were:
 ```
@@ -96,3 +96,12 @@ plt.ylim([0,8])
 ![JuneScatter](images/June-Temp-Prec.png)       ![DecScatter](images/Dec-Temp-Prec.png)
 
 ## Summary
+
+Review of the Statitical Data
+**June**                                        **December**
+_Avg Temperature_: 74.9F                        _Avg Temperature_: 71.0F
+_Max Temperature_: 85.0F                        _Max Temperature_: 83.0F
+_Min Temperature_: 65.0F                        _Min Temperature_: 56.0F
+_Avg Rainfall_:      .3in                       _Avg Rainfall_:      .2in
+_Max Rainfall_:     4.4in                       _Max Rainfall_:     6.4in
+_Min Rainfall_:      .0in                       _Min Rainfall_:      .0in
