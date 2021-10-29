@@ -146,3 +146,10 @@ I need to show this in real terms, so the scatter plot, shown above, will demons
   *  You will notice that the majority of the plots are under 1 in, that explains the average being under 1 in
   *  There are a lot showing on the y-axis = 0, so that shows us our minimum value.
   *  As the plot points rise higher, the numbers get very few, with only 1 in the 6in range, 3 in the 5in range, and 3 in the 4in range. The majority of the numbers are still under the 1.5in range. So we can feel comfortable that there are very few days in which we have over 2" of rain during the month of December.
+
+
+With these great numbers of ideal temperatures in June and December, averaging in the mid 80's.  The low precipitation numbers averaging under .3in for the months of June and December, I feel that the Surf n' Shake Shop, opening up on the Hawaii Island of Oahu, is the ideal place.
+
+Thank you for your time, and let me know if you have any questions or need more information.
+
+Jill Hughes
