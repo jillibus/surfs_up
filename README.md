@@ -97,11 +97,52 @@ plt.ylim([0,8])
 
 ## Summary
 
-Review of the Statitical Data
-**June**                                        **December**
-_Avg Temperature_: 74.9F                        _Avg Temperature_: 71.0F
-_Max Temperature_: 85.0F                        _Max Temperature_: 83.0F
-_Min Temperature_: 65.0F                        _Min Temperature_: 56.0F
-_Avg Rainfall_:      .3in                       _Avg Rainfall_:      .2in
-_Max Rainfall_:     4.4in                       _Max Rainfall_:     6.4in
-_Min Rainfall_:      .0in                       _Min Rainfall_:      .0in
+### Review of the Statitical Data 
+* **June** 
+  * _Avg Temperature_:&nbsp;74.9F 
+  * _Max Temperature_:&nbsp;85.0F 
+  * _Min Temperature_:&nbsp;65.0F 
+  * _Avg Rainfall_:&emsp;0.3in 
+  * _Max Rainfall_:&ensp;&nbsp;4.4in 
+  * _Min Rainfall_:&emsp;0.0in 
+* **December**
+  * _Avg Temperature_: 71.0F
+  * _Max Temperature_:&nbsp;83.0F
+  * _Min Temperature_:&nbsp;56.0F
+  * _Avg Rainfall_:&emsp;0.2in
+  * _Max Rainfall_:&ensp;&nbsp;6.4in
+  * _Min Rainfall_:&emsp;0.0in
+
+**Lets compare these 2 months statistical data against each other
+* The review of the temperatures shows:
+  * There is only a 3 degree F difference in the average temperature between June and December. Which really is a small difference when you think about temperature averages when you are planning a vacation.
+  * The difference in max temperatures is even smaller, in that June is 85 whereas December is 83, a 2 degree difference. This can and will be a great asset to reach out to tourists to visit you during the colder months, when it maybe slower, and cheaper to fly to Oahu.
+  * The minimum temperature is 9 degrees colder in December, but with the average being oinly a 3 degree difference, you can see that those cold days are few and far between.
+
+* The review of the percipitation shows:
+  * The average rainfall in June and December is negligible, at 0.3 and 0.2 inches respectively.  So the location we have chosen for the Surf n' Shake Shop is a great place during the June and December months.
+  * The maximum rainfall in June is 4.4 inches and December is 6.4 inches, that seems quite high for a month. But to see the overall picture we need to look at the average, max and min to really see how that fits in overall, are the max values skewing the data?
+  * The minimum rainfall in both June and December is 0.0 inches. So that tells us that there are definitely days of no rainfall.
+So what does that tell us?  Average of .3 and .2 inches, days of 0.0 inches and max of 4.4 in and 6.4 inches.  Since we have an Average of .3 and .2 - we definitely have some outliers that caused those max values, so they are not the norm.
+
+### Lets Review June in More 
+I need to show this in real terms, so the scatter plot, shown above, will demonstrate this.
+* In the June Temperature by Precipitation chart you will see the temperatures along the x-axis.
+*  You can see the number of plot points for those temperatures are represented by the blue dots.
+  *  The temperatures range from 65 deg F to 85 deg F.  
+  *  From that you can see that we had only 2 days hitting the min of 65 deg F and 1 day hitting the max of 85 deg F
+* You can see the number of inches of rain we received during the month of June along the y-axis.
+  *  You will notice that the majority of the plots are under 1 in, that explains the average being under 1 in
+  *  There are a lot showing on the y-axis = 0, so that shows us our minimum value
+  *  As the plot points rise higher, the numbers get very few, with only 2 in the 4 range, and 2 in the 3 range, 6 in the 2 range. So we can feel comfortable that there are very few days in which we have over 2" of rain during the month of June.
+
+### Lets Review December in More 
+I need to show this in real terms, so the scatter plot, shown above, will demonstrate this.
+* In the December Temperature by Precipitation chart you will see the temperatures along the x-axis.
+*  You can see the number of plot points for those temperatures are represented by the blue dots.
+  *  The temperatures range from 56 deg F to 83 deg F.  
+  *  From that you can see that we had only 2 days hitting the min of 56 deg F and 1 day hitting the max of 83 deg F
+* You can see the number of inches of rain we received during the month of December along the y-axis.
+  *  You will notice that the majority of the plots are under 1 in, that explains the average being under 1 in
+  *  There are a lot showing on the y-axis = 0, so that shows us our minimum value.
+  *  As the plot points rise higher, the numbers get very few, with only 1 in the 6in range, 3 in the 5in range, and 3 in the 4in range. The majority of the numbers are still under the 1.5in range. So we can feel comfortable that there are very few days in which we have over 2" of rain during the month of December.
